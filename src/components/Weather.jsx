@@ -1,0 +1,17 @@
+import React from 'react'
+import "./Weather.css"
+import search_icon from "../assets/search.png"
+
+const Weather = () => {
+  return (
+    <div className='weather'>
+        <div className="search-bar">
+            <input type="text" name="" id="" placeholder='search'/>
+            <img src={search_icon} alt="search"/>
+        </div>
+        
+    </div>
+  )
+}
+
+export default Weather
